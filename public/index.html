@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Site</title>
-
     <style>
-        .nav_link {
-            font: 25px Arial;
-            text-decoration: none;
-            padding: 5px;
-            color: #2D233C;
-            text-align: center;
-            box-sizing: content-box;
-        }
-        .nav_link:hover {
-            text-shadow: 0px 0px 5px #31c8d5;
-        }
-        #nav_bar {
-            background-color: #f9f871;
-            width: fit-content;
-            
-            border-radius: 10px;
-            border: 1px solid #31c8d5;
-        }
+      .nav_link {font: 25px Arial; text-decoration: none; padding: 5px; color: #f9f871;}
+      .nav_link:hover {text-shadow: 0px 0px 5px #31c8d5}
+      .title {color: #31c8d5; font: bold 25px Arial; letter-spacing: 3px; word-spacing: 5px;}
+      .text {font:  15px  Arial; letter-spacing: 1px; color: rgb(202, 116, 202)}
+      .link {color: #f9f871}
+      #nav_bar {padding: 10px;}
+      #home {text-align: center}
     </style>
-
-
-</head>
-<body style="background-color: #201b42">
+  </head>
+  <body style="background-color: #201b42">
     <head>
-        <nav id="nav_bar">
-            <a href="" class="nav_link">Home</a>
-            <a href="" class="nav_link">About</a>
-            <a href="" class="nav_link">Projects</a>
-        </nav>
+      <nav id="nav_bar">
+        <a href="#home" class="nav_link">Home</a>
+        <a href="#about" class="nav_link">About</a>
+        <a href="#projects" class="nav_link">Projects</a>
+      </nav>
     </head>
+    <section id="home">
+      <h1 class="title">Home</h1>
     
-</body>
+      <p class="text"><i>Hello and Welcome to my Page</i></p>
+      <a href="" class="link text"><b>About me</b></a> <br>
+      <a href="" class="link text"><b>My Projects</b></a><br>
+    </section>
+    <section id="about">
+    </section>
+  </body>
 </html>
